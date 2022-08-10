@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>kitty weather helper</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div
+        class="card mt-3 border border-warning border-opacity-50 border-2 mx-5"
+      >
+        <form class="sdfsdf">
+          <div class="input-group mt-4 px-5">
+            <input
+              type="text"
+              class="form-control border border-warning ms-4"
+              id="search-text-input"
+            />
+            <button
+              class="btn btn-outline-secondary border border-warning text-primary fw-bold me-4"
+              type="submit"
+            >
+              Search
+            </button>
+            <button class="btn btn-success" id="current-location-button">
+              Current
+            </button>
+          </div>
+        </form>
+
+        <div class="row justify-content-around mt-4">
+          <div class="col-9 text-secondary">
+            <span class="city">Kyiv</span>
+            <br />
+            <span class="day-time">Sunday 13:45</span>
+          </div>
+        </div>
+        <div class="row justify-content-around mt-4">
+          <div class="col-3 text-secondary">
+            🙀<span class="temp"> 37°</span>
+            <br />
+
+            <span class="kitty-advice">better sleep in the shadows</span>
+          </div>
+          <div class="col-3 text-secondary">
+            <strong>Wind:</strong> <span class="kitty-advice">7km/h</span>
+            <br />
+            <strong>Humidity:</strong> <span class="kitty-advice">45%</span>
+          </div>
+          <span class="kitty-footer">
+            <div class="row justify-content-center mt-5 mb-3">
+              <div class="col text-primary fw-bold">
+                <em>Mon</em>
+                <br />
+                😿
+                <br />
+                14°
+              </div>
+              <div class="col text-primary fw-bold">
+                <em>Tue</em>
+                <br />
+                🐱
+                <br />
+                19°
+              </div>
+              <div class="col text-primary fw-bold">
+                <em>Wed</em>
+                <br />
+                😸
+                <br />
+                22°
+              </div>
+              <div class="col text-primary fw-bold">
+                <em>Thu</em>
+                <br />
+                😾
+                <br />
+                27°
+              </div>
+              <div class="col text-primary fw-bold">
+                <em>Fri</em>
+                <br />
+                🙀
+                <br />
+                34°
+              </div>
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

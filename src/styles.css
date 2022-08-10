@@ -1,0 +1,28 @@
+body {
+  font-family: "VT323", monospace;
+  font-size: 17px;
+}
+
+.city {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.temp {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.card {
+  margin: 15px auto;
+  width: 54%;
+}
+
+.kitty-advice {
+  font-style: italic;
+}
+
+.kitty-footer {
+  font-size: x-large;
+  text-align: center;
+}
