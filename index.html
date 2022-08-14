@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <link href="src/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>kitty weather helper</title>
     <link
@@ -18,6 +17,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="src/styles.css" />
   </head>
 
   <body>
@@ -38,7 +38,10 @@
             >
               Search
             </button>
-            <button class="btn btn-success" id="current-location-button">
+            <button
+              class="btn btn-outline-secondary border border-warning text-primary fw-bold me-4"
+              id="current-location-button"
+            >
               Current
             </button>
           </div>
